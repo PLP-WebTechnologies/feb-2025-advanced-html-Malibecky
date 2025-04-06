@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Advanced HTML5 Elements and Forms</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Top 5 Learning Topics</h2>
+        <ol type="I">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Web Accessibility</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Inspiring Workspace</h2>
+        <img src="https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg" alt="Modern Workspace" width="600">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jane Doe</td>
+                    <td>123 Maple St</td>
+                    <td>+123456789</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>John Smith</td>
+                    <td>456 Oak Ave</td>
+                    <td>+987654321</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary Johnson</td>
+                    <td>789 Pine Rd</td>
+                    <td>+1122334455</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alex Brown</td>
+                    <td>321 Birch Ln</td>
+                    <td>+6677889900</td>
+                    <td>alex@example.com</td>
+                </tr>
+                <tr>
+                    <td>Lisa White</td>
+                    <td>654 Cedar Blvd</td>
+                    <td>+5544332211</td>
+                    <td>lisa@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter password" minlength="6" required><br><br>
+
+            <!-- Date -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown -->
+            <label for="course">Select Course:</label><br>
+            <select id="course" name="course" required>
+                <option value="">--Choose a course--</option>
+                <option value="web">Web Development</option>
+                <option value="data">Data Science</option>
+                <option value="ai">Artificial Intelligence</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <p>Skills:</p>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="js" name="skills" value="JavaScript">
+            <label for="js">JavaScript</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section>
+        <h2>Watch & Listen</h2>
+
+        <!-- Video -->
+        <video width="500" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video><br><br>
+
+        <!-- Audio -->
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us: info@weblearners.com</p>
+    </footer>
+
+</body>
+</html>
